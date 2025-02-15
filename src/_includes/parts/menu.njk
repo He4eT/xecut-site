@@ -1,3 +1,12 @@
-<div>
-test
-</div>
+{% set entries = config.menu %}
+<ul>
+{%- for entry in entries %}
+  <li>
+  {% if page.url.startsWith('/' ~ page.lang ~ '/' ~ entry) %}
+    <span>{{ entry }}</span>
+  {% else %}
+    <a href="{{ ('/' ~ entry ~ '/') | locale_url }}">{{ entry }}</a>
+  {% endif %}
+  </li>
+{%- endfor %}
+</ul>
