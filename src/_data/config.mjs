@@ -5,7 +5,6 @@ export default {
     'sr',
   ],
   menu: [
-    'index',
     'status',
     'location',
     'inventory',
