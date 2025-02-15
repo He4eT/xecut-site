@@ -19,6 +19,7 @@
       type="application/atom+xml">
   </head>
   <body>
+    {% include 'parts/menu.njk' %}
     {{ content | safe }}
   </body>
 </html>
