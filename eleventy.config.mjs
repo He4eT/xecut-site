@@ -7,6 +7,6 @@ export default function(eleventyConfig) {
   eleventyConfig.setInputDirectory('src')
   eleventyConfig.setOutputDirectory('build')
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
-    defaultLanguage: 'en'
+    defaultLanguage: 'en',
   })
 }
