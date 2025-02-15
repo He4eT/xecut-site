@@ -6,11 +6,11 @@
 
     <title>
       {% if title %} {{ title }} | {% endif %}
-      {{ metadata.title }}
+      {{ translations[page.lang]['title'] }}
     </title>
     <meta
       name="description"
-      content="{{ description or metadata.description }}">
+      content="{{ description or translations[page.lang]['description'] }}">
 
     <link
       rel="alternate"
