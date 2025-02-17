@@ -17,9 +17,13 @@
       href="/feed/feed.xml"
       title="{{ translations[page.lang]['title'] }}"
       type="application/atom+xml">
+
+    <link rel="stylesheet" href="/_assets/css/base.css">
+    <link rel="stylesheet" href="/_assets/css/menu.css">
   </head>
   <body>
     {% include 'parts/menu.njk' %}
+
     {{ content | safe }}
   </body>
 </html>
