@@ -1,12 +1,18 @@
-{% set entries = config.menu %}
+{% set items = config.menu %}
+
 <ul>
-{%- for entry in entries %}
+{%- for item in items %}
+  {% set isCurrent = page.url.startsWith('/' ~ page.lang ~ '/' ~ item) %}
+  {% set label = item %}
+  {% set href = ('/' ~ item ~ '/') | locale_url %}
+
   <li>
-  {% if page.url.startsWith('/' ~ page.lang ~ '/' ~ entry) %}
-    <span>{{ entry }}</span>
+  {% if isCurrent %}
+    <span>{{ label }}</span>
   {% else %}
-    <a href="{{ ('/' ~ entry ~ '/') | locale_url }}">{{ entry }}</a>
+    <a href="{{ href }}">{{ label }}</a>
   {% endif %}
   </li>
+
 {%- endfor %}
 </ul>
