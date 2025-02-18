@@ -7,14 +7,22 @@ body {
   overflow-y: scroll;
 }
 
+/* */
+
 *::selection {
   background-color: var(--color-fg);
   color: var(--color-bg);
 }
 
+*:focus-visible {
+  outline: calc(0.5 * var(--step)) solid var(--color-fg);
+  outline-offset: calc(0.5 * var(--step));
+}
+
+/* */
 h1 {
   font-family: Xecut, sans-sefif;
   font-weight: normal;
-  font-size: 72px;
+  font-size: calc(9 * var(--step));
   margin-block-start: 0;
 }
