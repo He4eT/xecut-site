@@ -10,6 +10,7 @@ export default function(eleventyConfig) {
   /* Assets */
   eleventyConfig.addPassthroughCopy('src/_assets/css/**/*.css')
   eleventyConfig.addPassthroughCopy('src/_assets/fonts/')
+  eleventyConfig.addPassthroughCopy('src/_assets/img/')
   /* Plugins*/
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
     defaultLanguage: 'en',
