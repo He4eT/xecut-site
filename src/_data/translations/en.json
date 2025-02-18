@@ -1,4 +1,10 @@
 {
   "title": "Xecut",
-  "description": "Hackspace in Belgrade."
+  "description": "Hackspace in Belgrade.",
+  "menu": {
+    "status": "Status",
+    "location": "Location",
+    "inventory": "Inventory",
+    "feed": "Feed"
+  }
 }

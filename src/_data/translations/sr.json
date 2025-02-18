@@ -1,4 +1,10 @@
 {
   "title": "Xecut",
-  "description": "Хакспејс у Београду."
+  "description": "Хакспејс у Београду.",
+  "menu": {
+    "status": "Status",
+    "location": "Location",
+    "inventory": "Inventory",
+    "feed": "Feed"
+  }
 }

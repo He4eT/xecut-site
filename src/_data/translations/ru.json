@@ -1,4 +1,10 @@
 {
   "title": "Xecut",
-  "description": "Хакспейс в Белграде."
+  "description": "Хакспейс в Белграде.",
+  "menu": {
+    "status": "Status",
+    "location": "Location",
+    "inventory": "Inventory",
+    "feed": "Feed"
+  }
 }
