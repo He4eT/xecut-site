@@ -21,12 +21,18 @@
     <link rel="stylesheet" href="/_assets/css/fonts.css">
     <link rel="stylesheet" href="/_assets/css/vendor.css">
 
+    <link rel="stylesheet" href="/_assets/css/variables.css">
     <link rel="stylesheet" href="/_assets/css/base.css">
+
+    <link rel="stylesheet" href="/_assets/css/layout.css">
     <link rel="stylesheet" href="/_assets/css/menu.css">
   </head>
   <body>
-    {% include 'parts/menu.njk' %}
-
-    {{ content | safe }}
+    <div class="container">
+      {% include 'parts/menu.njk' %}
+      <main>
+        {{ content | safe }}
+      </main>
+    </div>
   </body>
 </html>

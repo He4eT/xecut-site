@@ -1,18 +1,56 @@
-{% set items = config.menu %}
+<header class="menu">
+  <div class="topbar">
+    <div class="logo">
+      <a href="{{ '/' | locale_url }}">
+        {{ translations[page.lang]['title'] }}
+      </a>
+    </div>
 
-<ul>
-{%- for item in items %}
-  {% set isCurrent = page.url.startsWith('/' ~ page.lang ~ '/' ~ item) %}
-  {% set label = item %}
-  {% set href = ('/' ~ item ~ '/') | locale_url %}
+    <button class="hamburger" id="hamburger" aria-label="Открыть меню">
+      <span class="hamburger-icon"></span>
+      <span class="hamburger-icon"></span>
+      <span class="hamburger-icon"></span>
+    </button>
+  </div>
 
-  <li>
-  {% if isCurrent %}
-    <span>{{ label }}</span>
-  {% else %}
-    <a href="{{ href }}">{{ label }}</a>
-  {% endif %}
-  </li>
 
-{%- endfor %}
-</ul>
+  <nav class="navbar">
+    <ul class="nav-links">
+    {% set items = config.menu %}
+    {%- for item in items %}
+      {% set isCurrent = page.url.startsWith('/' ~ page.lang ~ '/' ~ item) %}
+      {% set label = translations[page.lang]['menu'][item] %}
+      {% set href = ('/' ~ item ~ '/') | locale_url %}
+
+      <li class="{% if isCurrent %} active {% endif %}">
+        <a href="{{ href }}" >
+          {{ label }}
+        </a>
+      </li>
+
+    {%- endfor %}
+    </ul>
+
+    <ul class="nav-langs">
+    {% set langs = config.langs %}
+    {%- for lang in langs %}
+      <li class="lang-separator" aria-hidden>|</li>
+      <li>
+        <a href="{{ page.url | locale_url(lang) }}" >
+          {{ lang }}
+        </a>
+      </li>
+    {%- endfor %}
+    </ul>
+  </nav>
+  <a href="/" class="desktop-logo" aria-hidden>
+    <img src="/_assets/img/common/tower.svg">
+  </a>
+</header>
+
+<script>
+document.getElementById('hamburger').addEventListener('click', function() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('active');
+});
+</script>

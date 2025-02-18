@@ -1,0 +1,7 @@
+body {
+  --step: 8px;
+
+  --color-bg: #ffffff;
+  --color-fg: #000000;
+  --color-inactive: #cdcdcd;
+}
