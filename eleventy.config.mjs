@@ -8,8 +8,8 @@ export default function(eleventyConfig) {
   eleventyConfig.setInputDirectory('src')
   eleventyConfig.setOutputDirectory('build')
   /* Assets */
-  eleventyConfig.addPassthroughCopy('src/_assets/')
-  eleventyConfig.ignores.add('src/_assets/**');
+  eleventyConfig.addPassthroughCopy('src/_assets/css/**/*.css')
+  eleventyConfig.addPassthroughCopy('src/_assets/fonts/')
   /* Plugins*/
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
     defaultLanguage: 'en',
