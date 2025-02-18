@@ -73,7 +73,7 @@ header.menu a:hover {
 .nav-langs {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 0;
   margin-block-start: auto;
   text-transform: uppercase;
