@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Xecut, sans-serif;
   font-weight: normal;
   line-height: 1.3;
+  scroll-margin: calc(4 * var(--step));
 }
 
 
@@ -47,15 +48,15 @@ h5 { font-size: calc(4 * var(--step)); }
 h6 { font-size: calc(3 * var(--step)); }
 
 h1 {
-  line-height: inherit;
+  line-height: 1;
   margin-block-start: 0;
   margin-block-end: calc(3 * var(--step));
 }
-h2 { margin-block: calc(3 * var(--step)); }
-h3 { margin-block: calc(3 * var(--step)); }
-h4 { margin-block: calc(2 * var(--step)); }
-h5 { margin-block: calc(2 * var(--step)); }
-h6 { margin-block: calc(2 * var(--step)); }
+h2 { margin-block: calc(4 * var(--step)); }
+h3 { margin-block: calc(4 * var(--step)); }
+h4 { margin-block: calc(4 * var(--step)); }
+h5 { margin-block: calc(3 * var(--step)); }
+h6 { margin-block: calc(3 * var(--step)); }
 
 /* Code and quotes*/
 
