@@ -5,3 +5,8 @@ body {
   --color-fg: #000000;
   --color-inactive: #dddddd;
 }
+@media (max-width: 1000px) {
+  body {
+    --step: 6px;
+  }
+}
