@@ -2,6 +2,7 @@
   "title": "Xecut",
   "description": "Хакспејс у Београду.",
   "menu": {
+    "title": "Menu",
     "status": "Status",
     "location": "Location",
     "inventory": "Inventory",

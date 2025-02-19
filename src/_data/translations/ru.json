@@ -2,6 +2,7 @@
   "title": "Xecut",
   "description": "Хакспейс в Белграде.",
   "menu": {
+    "title": "Меню",
     "status": "Status",
     "location": "Location",
     "inventory": "Inventory",

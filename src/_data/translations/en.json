@@ -2,6 +2,7 @@
   "title": "Xecut",
   "description": "Hackspace in Belgrade.",
   "menu": {
+    "title": "Main Menu",
     "status": "Status",
     "location": "Location",
     "inventory": "Inventory",
