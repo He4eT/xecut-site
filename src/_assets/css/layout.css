@@ -14,5 +14,10 @@
   padding: calc(4 * var(--step));
   max-width: calc(100 * var(--step));
 }
+@media (max-width: 768px) {
+  .default-layout > main {
+    padding: calc(2 * var(--step));
+  }
+}
 
 /* @see ./menu.css */
