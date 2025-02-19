@@ -24,6 +24,7 @@ header.menu a {
   color: var(--color-fg);
   text-decoration: none;
   transition: opacity .2s ease;
+  border-bottom: 0;
 }
 
 header.menu a:hover {
