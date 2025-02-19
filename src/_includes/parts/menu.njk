@@ -6,10 +6,10 @@
       </a>
     </div>
 
-    <button class="hamburger" id="hamburger" aria-label="Открыть меню">
-      <span class="hamburger-icon"></span>
-      <span class="hamburger-icon"></span>
-      <span class="hamburger-icon"></span>
+    <button class="main-menu-button" id="mainMenuButton" aria-label="Открыть меню">
+      <span class="main-menu-button-part"></span>
+      <span class="main-menu-button-part"></span>
+      <span class="main-menu-button-part"></span>
     </button>
   </div>
 
@@ -52,8 +52,12 @@
 </header>
 
 <script>
-document.getElementById('hamburger').addEventListener('click', function() {
-    const navLinks = document.querySelector('.nav-links');
-    navLinks.classList.toggle('active');
-});
+  const toggleMainMenu = () =>
+    document
+      .querySelector('.navbar')
+      .classList.toggle('active')
+
+  document
+    .querySelector('#mainMenuButton')
+    .addEventListener('click', toggleMainMenu);
 </script>
