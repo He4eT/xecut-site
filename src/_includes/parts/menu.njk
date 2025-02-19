@@ -36,9 +36,12 @@
     {%- for lang in langs %}
       <li class="lang-separator" aria-hidden>|</li>
       <li>
-        <a href="{{ page.url | locale_url(lang) }}">
-          {{ lang }}
-        </a>
+        {% if monolingual %}
+          {% set lang_href = '/' | locale_url(lang) %}
+        {% else %}
+          {% set lang_href = page.url | locale_url(lang) %}
+        {% endif %}
+        <a href="{{ lang_href }}">{{ lang }}</a>
       </li>
     {%- endfor %}
     </ul>
