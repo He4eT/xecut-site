@@ -2,5 +2,6 @@
   font-family: 'Xecut';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url('/_assets/fonts/xecut/xecut.ttf') format('truetype');
 }
