@@ -130,3 +130,12 @@ address {
   text-wrap: balance;
   margin-block: 1em;
 }
+
+/* External Elements */
+
+.osm-iframe {
+  display: block;
+  box-sizing: border-box;
+  border: calc(0.5 * var(--step)) solid var(--color-fg);
+  filter: grayscale(1);
+}
