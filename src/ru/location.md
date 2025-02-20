@@ -53,4 +53,4 @@ title: Location
 ---
 
 Если вы направлялись к нам и заблудились — напишите в
-<a target="_blank" href="https://t.me/xecut_chat">чат</a>.
+<a target="_blank" href="{{ config.links.chat }}">чат</a>.
