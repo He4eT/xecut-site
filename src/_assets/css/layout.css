@@ -17,6 +17,7 @@
 @media (max-width: 768px) {
   .default-layout > main {
     padding: calc(2 * var(--step));
+    max-width: 100%;
   }
 }
 
