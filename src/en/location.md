@@ -31,3 +31,28 @@ title: Location
   </a>
 
 ## Description
+
+The hackspace is located in Belgrade,
+in the Zvezdara district,
+about a 10-minute walk from Vuk's Monument (Park Ćirila i Metodija),
+at the intersection of Dimitrija Tucovića and Jovana Ćirilova streets.
+
+There is a noticeable sign on the building — Sky Music Center.
+
+The entrance to the hackspace is through glass doors on Jovana Ćirilova street.
+The hackspace itself is the first room on the left,
+marked by a large glass window.
+The entrance is right around the corner, to the right of the window.
+
+---
+
+Nearby public transport stops:
+- Marka Oreškovića
+- Podvožnjak
+- GO Zvezdara
+
+---
+
+If you’re heading to us and got lost,
+feel free to message in the
+<a target="_blank" href="{{ config.links.chat }}">chat</a>.
