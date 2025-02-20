@@ -17,6 +17,8 @@ header.menu {
 
   font-family: Xecut, sans-serif;
   text-align: end;
+
+  z-index: 1;
 }
 @media (max-width: 768px) {
   header.menu {
