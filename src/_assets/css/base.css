@@ -45,16 +45,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 { font-size: calc(9 * var(--step)); }
-h2 { font-size: calc(6 * var(--step)); }
-h3 { font-size: calc(5 * var(--step)); }
-h4 { font-size: calc(4.5 * var(--step)); }
-h5 { font-size: calc(4 * var(--step)); }
-h6 { font-size: calc(3.5 * var(--step)); }
+h2 { font-size: calc(5 * var(--step)); }
+h3 { font-size: calc(4.5 * var(--step)); }
+h4 { font-size: calc(4 * var(--step)); }
+h5 { font-size: calc(3.5 * var(--step)); }
+h6 { font-size: calc(3 * var(--step)); }
 
 h1 {
   line-height: 1;
   margin-block-start: 0;
-  margin-block-end: calc(3 * var(--step));
+  margin-block-end: calc(8 * var(--step));
+}
+@media (max-width: 768px) {
+  h1 {
+    margin-block-end: calc(3 * var(--step));
+  }
 }
 h2 { margin-block: calc(4 * var(--step)); }
 h3 { margin-block: calc(4 * var(--step)); }
