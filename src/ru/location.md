@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: Location
+title: Локация
 ---
 
 # Location
