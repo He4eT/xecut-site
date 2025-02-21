@@ -8,6 +8,12 @@
     flex-direction: column;
   }
 }
+@media (min-width: 1610px) {
+  .default-layout {
+    width: 1366px;
+    margin: 0 auto;
+  }
+}
 
 .default-layout > main {
   flex: 1 1 auto;
