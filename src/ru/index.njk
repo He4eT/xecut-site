@@ -27,7 +27,16 @@ layout: layouts/base.njk
   @media (min-width: 1300px) {
     .hero {
       border-width: 5px;
-      padding-block-start: 12px;
+      padding-block-start: 0;
+    }
+  }
+
+  .hero h1 {
+    display: none;
+  }
+  @media (min-width: 1300px) {
+    .hero h1 {
+      display: block;
     }
   }
 
@@ -52,7 +61,6 @@ layout: layouts/base.njk
   }
   @media (min-width: 1300px) {
     .hero .description {
-      font-size: 34px;
     }
   }
 
@@ -68,7 +76,7 @@ layout: layouts/base.njk
   @media (min-width: 1300px) {
     .tower {
       height: 345px;
-      margin-inline-end: -36px;
+      margin-inline-end: -18px;
       margin-block-end: -12px;
     }
   }
@@ -77,6 +85,7 @@ layout: layouts/base.njk
 
 <div class="hero">
   <div class="description">
+    <h1>Hackspace</h1>
     <strong>Команда</strong> хардварных, софтварных
     <br><s>и&nbsp;айварных</s>
     <br>энтузиастов в&nbsp;<strong>Белграде</strong>.
