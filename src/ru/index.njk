@@ -1,0 +1,109 @@
+---
+layout: layouts/base.njk
+---
+
+<style>
+  .hero {
+    text-wrap: balance;
+    margin-block-end: 3em;
+
+    margin-inline: calc(-2*var(--step));
+    padding-inline: calc(2*var(--step));
+    border-block-end: 3px solid var(--color-fg);
+  }
+  @media (min-width: 550px) {
+    .hero {
+      display: flex;
+      gap: 2em;
+      padding-block-start: 1em;
+    }
+  }
+  @media (min-width: 768px) {
+    .hero {
+      margin-inline: auto;
+      padding-inline: 0;
+    }
+  }
+  @media (min-width: 1300px) {
+    .hero {
+      border-width: 5px;
+      padding-block-start: 12px;
+    }
+  }
+
+  .hero br {
+    display: none;
+  }
+  @media (min-width: 550px) {
+    .hero br {
+      display: unset;
+    }
+  }
+
+  .hero .description {
+    font-size: 28px;
+    margin-block-end: 2em;
+    flex-grow: 1;
+  }
+  @media (min-width: 550px) {
+    .hero .description {
+      margin-block-end: 1em;
+    }
+  }
+  @media (min-width: 1300px) {
+    .hero .description {
+      font-size: 34px;
+    }
+  }
+
+  .tower-wrap {
+    flex-shrink: 0;
+  }
+
+  .tower {
+    display: block;
+    margin: 0 auto;
+    margin-block-end: -8px;
+  }
+  @media (min-width: 1300px) {
+    .tower {
+      height: 345px;
+      margin-inline-end: -36px;
+      margin-block-end: -12px;
+    }
+  }
+
+</style>
+
+<div class="hero">
+  <div class="description">
+    <strong>Команда</strong> хардварных, софтварных
+    <br><s>и&nbsp;айварных</s>
+    <br>энтузиастов в&nbsp;<strong>Белграде</strong>.
+  </div>
+  <div class="tower-wrap">
+    <img class="tower" src="/_assets/img/common/tower.svg">
+  </div>
+</div>
+
+
+<div>
+  <p>
+    Мы организуем некоммерческие мероприятия,
+    <br>на которых делимся опытом,
+    <br>реализуем идеи на практике и общаемся.
+  </p>
+  <p>
+    Кроме того, <strong>Xecut</strong> — это <strong>хакспейс</strong> где,
+    <br>любой желающий может поработать
+    <br>над тематическим проектом и выступить с докладом.
+  </p>
+</div>
+
+<h2>
+  Feed
+</h2>
+<p>
+На этой странице будет размещена информация о грядущих и уже прошедших
+мероприятиях.
+</p>
