@@ -5,10 +5,10 @@ export default {
     'sr',
   ],
   menu: [
-    'status',
     'location',
     'inventory',
     'feed',
+    'status',
   ],
   links: {
     channel: 'https://t.me/xecut_bg',
