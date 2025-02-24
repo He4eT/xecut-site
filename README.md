@@ -1,23 +1,23 @@
 # Xecut Website
 
-This project is built with the [Eleventy static site generator](https://www.11ty.dev/).
+This project is built using the [Eleventy static site generator](https://www.11ty.dev/).
 
 ## Usage
 
 Node.js is required.
 
-1. Install the packages:
+1. Install the dependencies:
   ```bash
-  npm i
+  npm install
   ```
 
-2. Start the dev server:
-  ```
+2. Start the development server:
+  ```bash
   npm run serve
   ```
-  The site will be availible on http://localhost:8080/
+  The site will be available at [http://localhost:8080/](http://localhost:8080/).
 
-3. Use this command to build:
-  ```
+3. Use this command to build the project:
+  ```bash
   npm run build
   ```
