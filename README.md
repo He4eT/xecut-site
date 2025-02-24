@@ -2,7 +2,7 @@
 
 This project is built with the [Eleventy static site generator](https://www.11ty.dev/).
 
-## Installation
+## Usage
 
 Node.js is required.
 
