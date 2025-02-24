@@ -21,3 +21,4 @@ Node.js is required.
   ```bash
   npm run build
   ```
+  The generated website will be placed in the `/build` directory.
