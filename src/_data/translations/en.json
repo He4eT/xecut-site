@@ -3,6 +3,7 @@
   "description": "Hackspace in Belgrade.",
   "menu": {
     "title": "Main Menu",
+    "home": "Home",
     "status": "Status",
     "location": "Location",
     "inventory": "Inventory",

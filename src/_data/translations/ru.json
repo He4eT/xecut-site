@@ -3,6 +3,7 @@
   "description": "Хакспейс в Белграде.",
   "menu": {
     "title": "Меню",
+    "home": "Home",
     "status": "Status",
     "location": "Location",
     "inventory": "Inventory",

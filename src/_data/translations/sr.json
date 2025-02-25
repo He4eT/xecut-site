@@ -3,6 +3,7 @@
   "description": "Хакспејс у Београду.",
   "menu": {
     "title": "Menu",
+    "home": "Home",
     "status": "Status",
     "location": "Location",
     "inventory": "Inventory",

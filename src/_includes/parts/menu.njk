@@ -21,6 +21,11 @@
 
   <nav class="navbar">
     <ul class="nav-links">
+      <li class="{% if indexPage === true %} active {% endif %}">
+        <a href="{{ '/' | locale_url }}" >
+          {{ translations[page.lang]['menu']['home'] }}
+        </a>
+      </li>
     {% set items = config.menu %}
     {%- for item in items %}
       {% set isCurrent = page.url.startsWith('/' ~ page.lang ~ '/' ~ item) %}
