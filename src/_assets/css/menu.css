@@ -41,8 +41,10 @@ header.menu a {
   border-color: transparent;
   transition: border-color 0.2s ease;
 }
-header.menu a:hover {
-  border-color: var(--color-fg);
+@media (min-width: 768px) {
+  header.menu a:hover {
+    border-color: var(--color-fg);
+  }
 }
 
 /* Topbar */
@@ -65,8 +67,10 @@ header.menu .logo a {
   font-size: calc(9 * var(--step));
   line-height: 1;
 }
-header.menu .logo a:hover {
-  border-block-end: calc(1 * var(--step)) solid var(--color-fg);
+@media (min-width: 768px) {
+  header.menu .logo a:hover {
+    border-block-end: calc(1 * var(--step)) solid var(--color-fg);
+  }
 }
 @media (max-width: 768px) {
   header.menu .logo a {
