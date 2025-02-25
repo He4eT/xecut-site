@@ -5,6 +5,13 @@ body {
   --color-fg: #000000;
   --color-inactive: #dddddd;
 }
+@media (prefers-color-scheme: dark) {
+  body {
+    --color-bg: #000000;
+    --color-fg: #ffffff;
+    --color-inactive: #222222;
+  }
+}
 @media (max-width: 1000px) {
   body {
     --step: 6px;
