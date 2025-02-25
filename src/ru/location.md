@@ -9,7 +9,7 @@ title: Локация
   class="osm-iframe"
   width="100%"
   height="350"
-  src="https://www.openstreetmap.org/export/embed.html?bbox=20.48410937190056%2C44.804260496036825%2C20.48587962985039%2C44.80516730485376&amp;layer=transportmap&amp;marker=44.80471437799246%2C20.484994500875473"
+  src="https://www.openstreetmap.org/export/embed.html?bbox=20.413370132446293%2C44.777204776923405%2C20.556707382202152%2C44.83225651845917&amp;layer=transportmap&amp;marker=44.80473721472608%2C20.48503875732422"
 ></iframe>
 
 <address>
