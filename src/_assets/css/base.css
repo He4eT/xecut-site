@@ -105,6 +105,10 @@ ul {
 
 /* Tables */
 
+.table-wrapper {
+  overflow-x: auto;
+}
+
 table {
   margin: 0;
   margin-block-end: calc(4 * var(--step));

@@ -19,4 +19,10 @@ export default function(eleventyConfig) {
     defaultLanguage: 'en',
   })
   eleventyConfig.addPlugin(IdAttributePlugin)
+  /* Wrapper for Markdown Tables */
+  eleventyConfig.addTransform('markdownTableWrapper', (content) => {
+    return content.replace(/<table>.*?<\/table>/gs, (table) => {
+      return `<div class='table-wrapper'>${table}</div>`
+    })
+  })
 }
