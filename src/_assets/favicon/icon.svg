@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="128" height="128" version="1.1" viewBox="0 0 33.9 33.9" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    #favicon { fill: #000000; }
+ <style>#favicon { fill: #000000; }
     @media (prefers-color-scheme: dark) {
       #favicon { fill: #ffffff; }
-    }
-  </style>
-  <g id="favicon">
-    <path d="m14.6 3.18v14h-11.4v13.5h27.5v-13.5h-11.4v-14zm-6.35 16.1h9.26v4.23h-5.29v5.03h-3.97z" stroke-width="1"/>
-  </g>
+    }</style>
+ <g id="favicon" transform="translate(.00844 -.817)">
+  <path d="m14 3.47v9.27h-11.4v13.2h28.6v-13.2h-11.4v-9.27zm-6.1 11.1h9v4.77h-4.5v4.77h-4.5z"/>
+  <rect x="11.1" y="26.5" width="11.7" height="4.77" stroke-width="1.3"/>
+ </g>
 </svg>
