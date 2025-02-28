@@ -12,6 +12,8 @@ export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/_assets/css/**/*.css')
   eleventyConfig.addPassthroughCopy('src/_assets/fonts/')
   eleventyConfig.addPassthroughCopy('src/_assets/img/')
+  /* Favicon*/
+  eleventyConfig.addPassthroughCopy({ 'src/_assets/favicon' : '/' } );
   /* Plugins*/
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
     defaultLanguage: 'en',
