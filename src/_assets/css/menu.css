@@ -66,11 +66,7 @@ header.menu .logo a {
   /* @see h1 in base.css */
   font-size: calc(9 * var(--step));
   line-height: 1;
-}
-@media (min-width: 768px) {
-  header.menu .logo a:hover {
-    border-block-end: calc(1 * var(--step)) solid var(--color-fg);
-  }
+  border-block-end-width: calc(1 * var(--step));
 }
 @media (max-width: 768px) {
   header.menu .logo a {
