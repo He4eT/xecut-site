@@ -1,0 +1,143 @@
+---
+layout: layouts/base.njk
+indexPage: true
+---
+
+<style>
+.tower {
+  width: calc(18 * var(--step));
+  margin-inline: calc(4 * var(--step));
+  margin-block: calc(4 * var(--step));
+  /* padding-block-start: calc(8 * var(--step)); */
+  /* padding-block-end: 0; */
+}
+@media (prefers-color-scheme: dark) {
+  .tower {
+    filter: invert(1);
+  }
+}
+</style>
+<style>
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+
+  --hero-border: calc(0.5 * var(--step)) solid var(--color-inactive);
+  /* border-bottom: var(--hero-border); */
+  /* border-width: calc(1 * var(--step)); */
+  /* outline: calc(1 * var(--step)) solid var(--color-inactive); */
+
+  font-family: Xecut;
+  /* text-transform: uppercase; */
+  /* font-size: calc(3.5 * var(--step)); */
+  font-size: calc(3 * var(--step));
+}
+
+.hero:before {
+  content: '|||||||||||';
+  content: '';
+  position: absolute;
+  bottom: 0;
+  bottom: calc(1 * var(--step));
+  right: 0;
+  height: calc(1 * var(--step));
+  /* height: 50%; */
+  width: 100%;
+  /* width: calc(100 * var(--step)); */
+  border-right: var(--hero-border);
+  border-bottom: var(--hero-border);
+  /* border-width: calc(1 * var(--step)); */
+  /* border-color: var(--color-fg); */
+  z-index: -1;
+  /* height: calc(10 * var(--step)); */
+  /* height: 10%; */
+  /* width: calc(0.5 * var(--step)); */
+  /* width: 10%; */
+  color: var(--color-inactive);
+  /* opacity: 0.5; */
+}
+.hero:after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  top: 0px;
+  right: 0;
+  height: calc(1 * var(--step));
+  /* height: 50%; */
+  width: calc(0.5 * var(--step));
+  width: 100%;
+  border-right: var(--hero-border);
+  border-top: var(--hero-border);
+  /* border-width: calc(1 * var(--step)); */
+  /* border-color: var(--color-fg); */
+  z-index: -1;
+  /* background: var(--color-fg); */
+  /* opacity: 0.5; */
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  /* background: var(--color-inactive); */
+}
+
+.tag {
+  /* flex-grow: 1; */
+  padding: calc(0.25 * var(--step)) calc(1.5 * var(--step));
+  /* text-align: center; */
+  border: var(--hero-border);
+  outline: var(--hero-border);
+  background: var(--color-bg);
+}
+
+.tower_cell {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-end;
+  align-items: center;
+  border: var(--hero-border);
+  outline: var(--hero-border);
+  background: var(--color-bg);
+}
+</style>
+
+<h1>
+  Hackspace
+</h1>
+
+<div class="hero">
+  <div class="tags">
+    <div class="tag">DIY</div>
+    <div class="tag">Engineering</div>
+    <div class="tag">Embedded</div>
+    <div class="tag">FPGA</div>
+    <div class="tag">IoT</div>
+    <div class="tag">AI/ML</div>
+    <div class="tag">LLM</div>
+    <div class="tag">Wireless</div>
+    <div class="tag">Reverse Engineering</div>
+    <div class="tag">Information Security</div>
+    <div class="tag">Open-Source</div>
+  </div>
+
+  <div class="tower_cell">
+    <img class="tower" src="/_assets/img/tower/tower_logo.svg">
+  </div>
+</div>
+
+<br>
+<p>
+  <strong>Место силы</strong> для заинтересованных в современных&nbsp;(и&nbsp;не&nbsp;очень) технологиях.
+</p>
+<p>
+  Мы&nbsp;собираемся, чтобы делиться опытом,
+  реализовывать идеи на&nbsp;практике и&nbsp;общаться.
+</p>
+<p>
+  Посетить хакспейс можно во время мероприятий или предварительно написав нам в <a>Чат</a>.
+</p>
