@@ -23,6 +23,7 @@ indexPage: true
     .hero {
       margin-inline: auto;
       padding-inline: 0;
+      padding-block-start: 0em;
     }
   }
   @media (min-width: 1300px) {
@@ -51,7 +52,7 @@ indexPage: true
   }
 
   .hero .description {
-    font-size: 28px;
+    font-size: 23px;
     margin-block-end: 2em;
     flex-grow: 1;
   }
@@ -62,6 +63,13 @@ indexPage: true
   }
   @media (min-width: 1300px) {
     .hero .description {
+      display: flex;
+      flex-direction: column;
+    }
+    .hero .description div {
+      margin-top: auto;
+      margin-bottom: 1.0em;
+      font-size: 28px;
     }
   }
 
@@ -90,12 +98,19 @@ indexPage: true
     }
   }
 
+  .tags {
+    font-family: Xecut;
+    font-size: calc(3.2 * var(--step));
+  }
 </style>
 
 <div class="hero">
   <div class="description">
     <h1>Hackspace</h1>
-    <strong>Место силы</strong> для заинтересованных в современных&nbsp;(и&nbsp;не&nbsp;очень) технологиях.
+    <p class="tags">
+      FPGA, Information Security, Engineering, DIY, Embedded,
+      Reverse Engineering, Wireless, IoT, Open-Source, AI/ML, LLM.
+    </p>
   </div>
   <div class="tower-wrap">
     <img class="tower" src="/_assets/img/tower/tower_logo.svg">
@@ -110,17 +125,19 @@ indexPage: true
 <!--<p>
   Цель хакерспейса - .
 </p>-->
+
+  <!--<p>
+  Наши текущие направления: <br>
+  </p>-->
+    <div>
+      <strong>Место силы</strong> для заинтересованных в современных&nbsp;(и&nbsp;не&nbsp;очень) технологиях.
+    </div>
   <p>
     Мы&nbsp;собираемся, чтобы делиться опытом,
     реализовывать идеи на&nbsp;практике и&nbsp;общаться.
   </p>
   <p>
-  Наши текущие направления: <br>
-  FPGA, information security, engineering, DIY, embedded,
-reverse engineering, wireless, IoT, open-source, AI/ML, LLM
-  </p>
-  <p>
-  Посетить хакспейс можно во время мероприятий или предварительно написав нам в <a>Чат</a>.
+    Посетить хакспейс можно во время мероприятий или предварительно написав нам в <a>Чат</a>.
   </p>
 <!--  <p>
   Поддержать развитие хакспейса можно оставив донат
