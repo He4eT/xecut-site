@@ -6,58 +6,62 @@ indexPage: true
 <style>
 .tower {
   width: calc(18 * var(--step));
-  margin-inline: calc(4 * var(--step));
-  margin-block: calc(4 * var(--step));
+  margin: calc(4 * var(--step));
 }
 @media (prefers-color-scheme: dark) {
   .tower {
     filter: invert(1);
   }
 }
+@media (max-width: 500px) {
+  .tower {
+    max-width: calc(10 * var(--step));
+    margin: calc(1 * var(--step));
+  }
+}
 </style>
 <style>
 .hero {
   position: relative;
+
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   align-items: flex-start;
 
+  padding: calc(0.5 * var(--step));
   --hero-border: calc(0.5 * var(--step)) solid var(--color-inactive);
 
   font-family: Xecut;
   font-size: calc(3 * var(--step));
 }
-
-.hero:before {
-  content: '';
-
-  position: absolute;
-  z-index: -1;
-
-  bottom: calc(1 * var(--step));
-  left: 0;
-
-  height: calc(1 * var(--step));
-  border-right: var(--hero-border);
-
-  width: 100%;
-  border-bottom: var(--hero-border);
-
+@media (max-width: 500px) {
+  .hero {
+    align-items: normal;
+    flex-direction: row-reverse;
+    font-size: calc(2 * var(--step));
+  }
 }
+
+.hero:before,
 .hero:after {
   content: '';
 
   position: absolute;
+  right: 0;
   z-index: -1;
 
-  top: 0;
-  left: 0;
-
+  width: 90%;
   height: calc(1 * var(--step));
   border-right: var(--hero-border);
-
-  width: 100%;
+  border-left: var(--hero-border);
+}
+.hero:before {
+  top: calc(0.5 * var(--step));
   border-top: var(--hero-border);
+}
+.hero:after {
+  bottom: calc(1 * var(--step));
+  border-bottom: var(--hero-border);
 }
 
 .tags {
@@ -68,11 +72,15 @@ indexPage: true
 }
 
 .tag {
-  /* flex-grow: 1; */
   padding: calc(0.25 * var(--step)) calc(1.5 * var(--step));
   border: var(--hero-border);
   outline: var(--hero-border);
   background: var(--color-bg);
+}
+@media (max-width: 500px) {
+  .tag {
+    flex-grow: 1;
+  }
 }
 
 .tower_cell {
@@ -84,6 +92,11 @@ indexPage: true
   outline: var(--hero-border);
   background: var(--color-bg);
 }
+@media (max-width: 500px) {
+  .tower_cell {
+    align-items: flex-end;
+  }
+}
 </style>
 
 <h1>
@@ -91,6 +104,9 @@ indexPage: true
 </h1>
 
 <div class="hero">
+  <div class="tower_cell">
+    <img class="tower" src="/_assets/img/tower/tower_logo.svg">
+  </div>
   <div class="tags">
     <div class="tag">DIY</div>
     <div class="tag">Engineering</div>
@@ -104,20 +120,25 @@ indexPage: true
     <div class="tag">Information Security</div>
     <div class="tag">Open-Source</div>
   </div>
-
-  <div class="tower_cell">
-    <img class="tower" src="/_assets/img/tower/tower_logo.svg">
-  </div>
 </div>
 
-<br>
 <p>
-  <strong>Место силы</strong> для заинтересованных в современных&nbsp;(и&nbsp;не&nbsp;очень) технологиях.
-</p>
-<p>
+  <strong>Xecut</strong>&nbsp;&mdash; это <strong>место силы</strong> для заинтересованных в современных&nbsp;(и&nbsp;не&nbsp;очень) технологиях.
   Мы&nbsp;собираемся, чтобы делиться опытом,
   реализовывать идеи на&nbsp;практике и&nbsp;общаться.
 </p>
 <p>
-  Посетить хакспейс можно во время мероприятий или предварительно написав нам в <a>Чат</a>.
+  Посетить хакспейс можно во время <a href="/feed">мероприятий</a> или предварительно написав нам в <a>чат</a>.
 </p>
+
+<h2>
+  Contacts
+</h2>
+<ul>
+  <li>
+    <a target="_blank" href="{{ config.links.channel }}">Telegram: Канал</a>
+  </li>
+  <li>
+    <a target="_blank" href="{{ config.links.chat }}">Telegram: Чат</a>
+  </li>
+</ul>

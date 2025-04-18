@@ -61,6 +61,7 @@ h1 {
 }
 @media (max-width: 768px) {
   h1 {
+    font-size: calc(7 * var(--step));
     margin-block-end: calc(3 * var(--step));
   }
 }
