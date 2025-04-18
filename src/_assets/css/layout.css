@@ -1,6 +1,7 @@
 .default-layout {
   box-sizing: border-box;
   height: 100%;
+  min-width: 300px;
   display: flex;
   flex-direction: row;
 }
@@ -11,7 +12,7 @@
 }
 @media (min-width: 1610px) {
   .default-layout {
-    width: 1366px;
+    width: 1201px;
     margin: 0 auto;
   }
 }

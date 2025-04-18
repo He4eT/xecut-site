@@ -29,6 +29,7 @@ header.menu {
     padding: 0;
 
     border-block-end: calc(0.5 * var(--step)) solid var(--color-fg);
+    border-block-start: calc(0.5 * var(--step)) solid var(--color-fg);
     background-color: var(--color-bg);
   }
 }
