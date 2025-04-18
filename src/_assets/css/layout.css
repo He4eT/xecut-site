@@ -1,4 +1,5 @@
 .default-layout {
+  box-sizing: border-box;
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -16,6 +17,7 @@
 }
 
 .default-layout > main {
+  box-sizing: border-box;
   flex: 1 1 auto;
   padding: calc(4 * var(--step));
   max-width: calc(100 * var(--step));
