@@ -1,126 +1,12 @@
 ---
-layout: layouts/base.njk
-indexPage: true
+layout: layouts/index.njk
 ---
-
-<style>
-.tower {
-  width: calc(18 * var(--step));
-  margin: calc(4 * var(--step));
-}
-@media (prefers-color-scheme: dark) {
-  .tower {
-    filter: invert(1);
-  }
-}
-@media (max-width: 500px) {
-  .tower {
-    max-width: calc(10 * var(--step));
-    margin: calc(1 * var(--step));
-  }
-}
-</style>
-<style>
-.hero {
-  position: relative;
-
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-
-  padding: calc(0.5 * var(--step));
-  --hero-border: calc(0.5 * var(--step)) solid var(--color-inactive);
-
-  font-family: Xecut;
-  font-size: calc(3 * var(--step));
-}
-@media (max-width: 500px) {
-  .hero {
-    align-items: normal;
-    flex-direction: row-reverse;
-    font-size: calc(2 * var(--step));
-  }
-}
-
-.hero:before,
-.hero:after {
-  content: '';
-
-  position: absolute;
-  right: 0;
-  z-index: -1;
-
-  width: 90%;
-  height: calc(1 * var(--step));
-  border-right: var(--hero-border);
-  border-left: var(--hero-border);
-}
-.hero:before {
-  top: calc(0.5 * var(--step));
-  border-top: var(--hero-border);
-}
-.hero:after {
-  bottom: calc(1 * var(--step));
-  border-bottom: var(--hero-border);
-}
-
-.tags {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
-
-.tag {
-  padding: calc(0.25 * var(--step)) calc(1.5 * var(--step));
-  border: var(--hero-border);
-  outline: var(--hero-border);
-  background: var(--color-bg);
-}
-@media (max-width: 500px) {
-  .tag {
-    flex-grow: 1;
-  }
-}
-
-.tower_cell {
-  box-sizing: border-box;
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  border: var(--hero-border);
-  outline: var(--hero-border);
-  background: var(--color-bg);
-}
-@media (max-width: 500px) {
-  .tower_cell {
-    align-items: flex-end;
-  }
-}
-</style>
 
 <h1>
   Hackspace
 </h1>
 
-<div class="hero">
-  <div class="tower_cell">
-    <img class="tower" src="/_assets/img/tower/tower_logo.svg">
-  </div>
-  <div class="tags">
-    <div class="tag">DIY</div>
-    <div class="tag">Engineering</div>
-    <div class="tag">Embedded</div>
-    <div class="tag">FPGA</div>
-    <div class="tag">IoT</div>
-    <div class="tag">AI/ML</div>
-    <div class="tag">LLM</div>
-    <div class="tag">Wireless</div>
-    <div class="tag">Reverse Engineering</div>
-    <div class="tag">Information Security</div>
-    <div class="tag">Open-Source</div>
-  </div>
-</div>
+{% include 'parts/hero.njk' %}
 
 <p>
   <strong>Xecut</strong>&nbsp;&mdash; это <strong>место силы</strong> для заинтересованных в современных&nbsp;(и&nbsp;не&nbsp;очень) технологиях.
@@ -134,6 +20,7 @@ indexPage: true
 <h2>
   Contacts
 </h2>
+
 <ul>
   <li>
     <a target="_blank" href="{{ config.links.channel }}">Telegram: Канал</a>
