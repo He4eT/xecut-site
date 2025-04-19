@@ -176,10 +176,3 @@ header.menu .nav-langs .lang-separator {
 header.menu .nav-langs .lang-separator:first-child {
   display: none;
 }
-
-/* Hidden Logo */
-
-.desktop-logo {
-  display: none;
-  margin-block-start: auto;
-}
