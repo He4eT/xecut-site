@@ -7,6 +7,7 @@
 
   padding: calc(0.5 * var(--step));
   --hero-border: calc(0.5 * var(--step)) solid var(--color-inactive);
+  margin-block-end: calc(4 * var(--step));
 
   font-family: Xecut;
   font-size: calc(3 * var(--step));
@@ -15,6 +16,9 @@
   .hero {
     flex-direction: row-reverse;
     align-items: normal;
+
+    padding: 0;
+    margin-block-end: calc(0 * var(--step));
 
     font-size: calc(2 * var(--step));
   }
