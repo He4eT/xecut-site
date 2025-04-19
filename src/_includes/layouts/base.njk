@@ -17,12 +17,12 @@
 
     <link rel="stylesheet" href="/_assets/css/fonts.css">
     <link rel="stylesheet" href="/_assets/css/vendor.css">
-
     <link rel="stylesheet" href="/_assets/css/variables.css">
     <link rel="stylesheet" href="/_assets/css/base.css">
+    <link rel="stylesheet" href="/_assets/css/layouts/default.css">
+    <link rel="stylesheet" href="/_assets/css/parts/menu.css">
 
-    <link rel="stylesheet" href="/_assets/css/layout.css">
-    <link rel="stylesheet" href="/_assets/css/menu.css">
+    {% block extra_css %}{% endblock %}
   </head>
   <body>
     <div class="default-layout">
@@ -31,5 +31,6 @@
         {{ content | safe }}
       </main>
     </div>
+    {% block extra_js %}{% endblock %}
   </body>
 </html>
