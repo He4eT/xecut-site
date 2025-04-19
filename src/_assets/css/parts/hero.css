@@ -84,6 +84,7 @@
 .hero .tower {
   margin: calc(4 * var(--step));
   width: calc(18 * var(--step));
+  height: calc(36 * var(--step));
 }
 @media (prefers-color-scheme: dark) {
   .hero .tower {
