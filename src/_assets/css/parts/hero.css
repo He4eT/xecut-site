@@ -13,80 +13,82 @@
 }
 @media (max-width: 500px) {
   .hero {
-    align-items: normal;
     flex-direction: row-reverse;
+    align-items: normal;
+
     font-size: calc(2 * var(--step));
   }
 }
 
-.hero:before,
-.hero:after {
+.hero::before,
+.hero::after {
   content: '';
 
   position: absolute;
-  right: 0;
+  inset-inline-end: 0;
   z-index: -1;
 
-  width: 90%;
   height: calc(1 * var(--step));
-  border-right: var(--hero-border);
-  border-left: var(--hero-border);
+  width: 90%;
+  border-inline: var(--hero-border);
 }
-.hero:before {
-  top: calc(0.5 * var(--step));
-  border-top: var(--hero-border);
+.hero::before {
+  inset-block-start: calc(0.5 * var(--step));
+  border-block-start: var(--hero-border);
 }
-.hero:after {
-  bottom: calc(1 * var(--step));
-  border-bottom: var(--hero-border);
+.hero::after {
+  inset-block-end: calc(1 * var(--step));
+  border-block-end: var(--hero-border);
 }
 
-.tags {
+.hero .tags {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
 
-.tag {
-  padding: calc(0.25 * var(--step)) calc(1.5 * var(--step));
-  border: var(--hero-border);
+.hero .tag {
   outline: var(--hero-border);
+  border: var(--hero-border);
+  padding: calc(0.25 * var(--step)) calc(1.5 * var(--step));
   background: var(--color-bg);
 }
 @media (max-width: 500px) {
-  .tag {
+  .hero .tag {
     flex-grow: 1;
   }
 }
 
-.tower_cell {
-  box-sizing: border-box;
+.hero .tower_cell {
   flex-shrink: 0;
+
   display: flex;
   align-items: center;
-  border: var(--hero-border);
+
+  box-sizing: border-box;
   outline: var(--hero-border);
+  border: var(--hero-border);
   background: var(--color-bg);
 }
 @media (max-width: 500px) {
-  .tower_cell {
+  .hero .tower_cell {
     align-items: flex-end;
   }
 }
 
-.tower {
-  width: calc(18 * var(--step));
+.hero .tower {
   margin: calc(4 * var(--step));
+  width: calc(18 * var(--step));
 }
 @media (prefers-color-scheme: dark) {
-  .tower {
+  .hero .tower {
     filter: invert(1);
   }
 }
 @media (max-width: 500px) {
-  .tower {
-    max-width: calc(10 * var(--step));
+  .hero .tower {
     margin: calc(1 * var(--step));
+    max-width: calc(10 * var(--step));
   }
 }
