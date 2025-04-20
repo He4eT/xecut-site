@@ -176,3 +176,7 @@ header.menu .nav-langs .lang-separator {
 header.menu .nav-langs .lang-separator:first-child {
   display: none;
 }
+
+header.menu .nav-langs a.active {
+  border-color: var(--color-fg);
+}
