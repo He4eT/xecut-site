@@ -8,6 +8,6 @@
   "description": "A website for the Xecut hackspace.",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
-    "normalize.css": "^8.0.1"
+    "modern-normalize": "^3.0.1"
   }
 }
