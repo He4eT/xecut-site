@@ -16,7 +16,7 @@ export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ 'src/_assets/favicon' : '/' })
   /* Plugins*/
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
-    defaultLanguage: 'en',
+    defaultLanguage: 'ru',
   })
   eleventyConfig.addPlugin(IdAttributePlugin)
   /* Wrapper for Markdown Tables */
