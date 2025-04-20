@@ -2,8 +2,6 @@
 layout: layouts/base.njk
 title: 'Markdown test page'
 description: 'A test document written using Markdown'
-page:
-  lang: 'en'
 monolingual: true
 ---
 
