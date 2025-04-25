@@ -13,7 +13,10 @@ title: Инвентарь
 
 ## Rooms
 
-<img width="100%" src="/_assets/img/common/plan.jpg">
+<img
+  class="black-on-white"
+  width="100%"
+  src="/_assets/img/common/rooms.svg">
 
 ## Tools
 
