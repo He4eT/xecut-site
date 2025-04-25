@@ -17,7 +17,7 @@ please get in touch with us.
 ## Rooms
 
 Total area:
-**46.89** m² = **41.44** m² + **3.30** m² + **2.15** m²
+**46.89**&nbsp;м²&nbsp;= **41.44**&nbsp;м² +&nbsp;**3.30**&nbsp;м² +&nbsp;**2.15**&nbsp;м²
 
 <img
   class="black-on-white"
