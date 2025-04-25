@@ -94,7 +94,7 @@
 @media (max-width: 500px) {
   .hero .tower {
     margin: calc(1 * var(--step));
-    height: auto;
-    max-width: calc(10 * var(--step));
+    height: calc(20 * var(--step));
+    width: calc(10 * var(--step));
   }
 }
