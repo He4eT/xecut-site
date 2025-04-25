@@ -3,5 +3,9 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/_assets/fonts/xecut/xecut.ttf') format('truetype');
+  /* Experimental */
+  font-smooth: never;
+  -webkit-font-smoothing : none;
+  /* */
+  src: url('/_assets/fonts/xecut/xecut.woff2') format('woff2');
 }
