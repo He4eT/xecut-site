@@ -44,7 +44,7 @@ The hackspace itself is the first room on the left,
 marked by a large glass window.
 The entrance is right around the corner, to the right of the window.
 
----
+## Public Transport
 
 Nearby public transport stops:
 - Marka Oreškovića
