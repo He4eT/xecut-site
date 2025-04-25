@@ -137,6 +137,15 @@ th, td {
   padding-block-end: calc(1.75 * var(--step));
 }
 
+/* Images */
+
+img.black-on-white {}
+@media (prefers-color-scheme: dark) {
+  img.black-on-white {
+    filter: invert(1);
+  }
+}
+
 /* Separators */
 
 hr {

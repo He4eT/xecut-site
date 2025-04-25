@@ -86,11 +86,6 @@
   width: calc(18 * var(--step));
   height: calc(36 * var(--step));
 }
-@media (prefers-color-scheme: dark) {
-  .hero .tower {
-    filter: invert(1);
-  }
-}
 @media (max-width: 500px) {
   .hero .tower {
     margin: calc(1 * var(--step));
