@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: Events
+title: Feed
 ---
 
 # Feed
