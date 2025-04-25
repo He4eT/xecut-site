@@ -17,7 +17,7 @@ slobodno nas kontaktirajte.
 ## Prostori
 
 Ukupna površina:
-**46.89** m² = **41.44** m² + **3.30** m² + **2.15** m²
+**46.89**&nbsp;м&sup2; = **41.44**&nbsp;м&sup2; + **3.30**&nbsp;м&sup2; + **2.15**&nbsp;м&sup2;
 
 <img
   class="black-on-white"
