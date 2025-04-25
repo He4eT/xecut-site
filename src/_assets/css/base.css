@@ -46,6 +46,15 @@ h1, h2, h3, h4, h5, h6 {
     scroll-margin: calc(10 * var(--step));
   }
 }
+h1:target:after,
+h2:target:after,
+h3:target:after,
+h4:target:after,
+h5:target:after,
+h6:target:after {
+  content: "|";
+  color: var(--color-inactive);
+}
 
 h1 { font-size: calc(9 * var(--step)); }
 h2 { font-size: calc(5 * var(--step)); }
@@ -93,7 +102,8 @@ pre > code {
 }
 
 code {
-  /* font-family: 'Fira Code', monospace; */
+  /* font-family: "Fira Code", monospace; */
+  font-family: monospace;
   background-color: var(--color-inactive);
   padding: calc(0.5 * var(--step)) calc(1 * var(--step));
 }
