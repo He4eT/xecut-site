@@ -12,6 +12,10 @@
 }
 @media (min-width: 1610px) {
   .default-layout {
+    /**
+     * This 1px adjustment was introduced due to a known bug:
+     * https://issues.chromium.org/issues/401693546
+    **/
     width: 1201px;
     margin: 0 auto;
   }
