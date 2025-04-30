@@ -1,6 +1,9 @@
 import { EleventyI18nPlugin } from '@11ty/eleventy'
 import { IdAttributePlugin } from '@11ty/eleventy'
 
+import { formatCurrency } from './src/_filters/formatCurrency.js'
+import { sumObjectValues } from './src/_filters/sumObjectValues.js'
+
 /**
  * @param {import('@11ty/eleventy').UserConfig} eleventyConfig
  */
@@ -19,6 +22,9 @@ export default function(eleventyConfig) {
     defaultLanguage: 'ru',
   })
   eleventyConfig.addPlugin(IdAttributePlugin)
+  /* Custom Filters */
+  eleventyConfig.addFilter('formatCurrency', formatCurrency)
+  eleventyConfig.addFilter('sumObjectValues', sumObjectValues)
   /* Wrapper for Markdown Tables */
   eleventyConfig.addTransform('markdownTableWrapper', (content) => {
     return content.replace(/<table>.*?<\/table>/gs, (table) => {
