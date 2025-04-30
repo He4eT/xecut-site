@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: Location
+title: Lokacija
 ---
 
 # Location
@@ -30,7 +30,7 @@ title: Location
       Google Maps
   </a>
 
-## Description
+## Opis
 
 Hackspace se nalazi u Beogradu,
 u opštini Zvezdara,
@@ -44,7 +44,7 @@ Sam hackspace je prva prostorija levo,
 obeležena velikim staklenim prozorom.
 Ulaz je odmah iza ugla, desno od prozora.
 
-## Public Transport
+## Javni prevoz
 
 Najbliža stajališta javnog prevoza:
 - Marka Oreškovića
