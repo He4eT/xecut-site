@@ -19,5 +19,5 @@ Za beskontaktna plaćanja, molimo vas da kontaktirate administratore
 Stavka troška          | Iznos
 :----------------------| -----------:
 Zakup prostora         | {{ funds.monthly.rent | formatCurrency: funds.monthly.currency }}
-Komunalni računi       | {{ funds.monthly.bils | formatCurrency: funds.monthly.currency }}
+Komunalni računi       | {{ funds.monthly.bills | formatCurrency: funds.monthly.currency }}
 **Ukupno**             | **{{ funds.monthly | sumObjectValues | formatCurrency: funds.monthly.currency }}**

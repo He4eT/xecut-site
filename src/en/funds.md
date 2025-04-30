@@ -19,5 +19,5 @@ of the <a target="_blank" href="{{ config.links.chat }}">chat</a>.
 Expense Category     | Amount
 :------------------- | -----------:
 Space Rent           | {{ funds.monthly.rent | formatCurrency: funds.monthly.currency }}
-Utility Bills        | {{ funds.monthly.bils | formatCurrency: funds.monthly.currency }}
+Utility Bills        | {{ funds.monthly.bills | formatCurrency: funds.monthly.currency }}
 **Total**            | **{{ funds.monthly | sumObjectValues | formatCurrency: funds.monthly.currency }}**

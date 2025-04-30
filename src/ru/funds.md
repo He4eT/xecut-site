@@ -19,5 +19,5 @@ Xecut&nbsp;&mdash; **некоммерческий** проект,
 Статья расходов    | Сумма
 :----------------- | -----------:
 Аренда помещения   | {{ funds.monthly.rent | formatCurrency: funds.monthly.currency }}
-Коммунальные счета | {{ funds.monthly.bils | formatCurrency: funds.monthly.currency }}
+Коммунальные счета | {{ funds.monthly.bills | formatCurrency: funds.monthly.currency }}
 **Итог**           | **{{ funds.monthly | sumObjectValues | formatCurrency: funds.monthly.currency }}**
