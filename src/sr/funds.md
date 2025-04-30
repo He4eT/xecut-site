@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: Funds
+title: Sredstva
 ---
 
 # Funds
@@ -14,7 +14,7 @@ koja se nalazi u hakerspejsu.
 Za beskontaktna plaćanja, molimo vas da kontaktirate administratore
 <a target="_blank" href="{{ config.links.chat }}">četa</a>.
 
-## Monthly Expenses
+## Mesečni troškovi
 
 Stavka troška          | Iznos
 :----------------------| -----------:
