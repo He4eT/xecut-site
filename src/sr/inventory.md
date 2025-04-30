@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: Inventory
+title: Inventar
 ---
 
 # Inventory
