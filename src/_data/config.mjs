@@ -7,6 +7,7 @@ export default {
   menu: [
     'location',
     'inventory',
+    'funds',
     'feed',
     'status',
   ],
