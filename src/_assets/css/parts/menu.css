@@ -144,8 +144,7 @@ header.menu .nav-links li {
   border-inline-end: calc(1 * var(--step)) solid;
   border-color: var(--color-inactive);
 
-  padding: calc(0.8 * var(--step)) calc(2 * var(--step));
-  /* padding: calc(1 * var(--step)) calc(2 * var(--step)); */
+  padding: calc(1 * var(--step)) calc(2 * var(--step));
 
   list-style: none;
 }
