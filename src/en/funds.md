@@ -18,7 +18,6 @@ of the <a target="_blank" href="{{ config.links.chat }}">chat</a>.
 
 Expense Category     | Amount
 :------------------- | -----------:
-Space Rent           | 15&nbsp;000&nbsp;RSD
-Utility Bills        | 5&nbsp;000&nbsp;RSD
-Internet             | 2&nbsp;000&nbsp;RSD
-**Total**            | **22&nbsp;000&nbsp;RSD**
+Space Rent           | 65&nbsp;000&nbsp;RSD
+Utility Bills        | 3&nbsp;000&nbsp;RSD
+**Total**            | **68&nbsp;000&nbsp;RSD**
