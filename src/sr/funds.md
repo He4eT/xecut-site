@@ -18,7 +18,6 @@ Za beskontaktna plaćanja, molimo vas da kontaktirate administratore
 
 Stavka troška          | Iznos
 :----------------------| -----------:
-Zakup prostora         | 15&nbsp;000&nbsp;RSD
-Komunalni računi       | 5&nbsp;000&nbsp;RSD
-Internet               | 2&nbsp;000&nbsp;RSD
-**Ukupno**             | **22&nbsp;000&nbsp;RSD**
+Zakup prostora         | 65&nbsp;000&nbsp;RSD
+Komunalni računi       | 3&nbsp;000&nbsp;RSD
+**Ukupno**             | **68&nbsp;000&nbsp;RSD**
