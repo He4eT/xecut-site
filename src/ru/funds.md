@@ -18,6 +18,6 @@ Xecut&nbsp;&mdash; **некоммерческий** проект,
 
 Статья расходов    | Сумма
 :----------------- | -----------:
-Аренда помещения   | 65&nbsp;000&nbsp;RSD
-Коммунальные счета | 3&nbsp;000&nbsp;RSD
-**Итог**           | **68&nbsp;000&nbsp;RSD**
+Аренда помещения   | {{ funds.monthly.rent | formatCurrency: funds.monthly.currency }}
+Коммунальные счета | {{ funds.monthly.bils | formatCurrency: funds.monthly.currency }}
+**Итог**           | **{{ funds.monthly | sumObjectValues | formatCurrency: funds.monthly.currency }}**
