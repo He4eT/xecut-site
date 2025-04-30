@@ -1,5 +1,6 @@
 /**
  * Transform {a: 1, b: 2, c: 'skip'} to 3
+ *
  * @param {Record<string, unknown>} obj
  * @returns {number}
  */
