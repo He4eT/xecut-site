@@ -1,9 +1,9 @@
 ---
 layout: layouts/base.njk
-title: Sredstva
+title: Funds
 ---
 
-# Sredstva
+# Funds
 
 Xecut&nbsp;&mdash; **neprofitni** projekat
 čije postojanje nije moguće bez finansijske podrške
