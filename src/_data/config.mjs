@@ -14,5 +14,6 @@ export default {
   links: {
     channel: 'https://t.me/xecut_bg',
     chat: 'https://t.me/xecut_chat',
+    email: 'hackspace@xecut.me',
   },
 }
