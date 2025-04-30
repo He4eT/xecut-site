@@ -4,7 +4,7 @@
  * @param {Record<string, unknown>} obj
  * @returns {number}
  */
-export const sumObjectValues = (obj) => {
+export function sumObjectValues (obj) {
   return Object.values(obj)
     .filter((x) => typeof x === 'number')
     .reduce((sum, x) => sum + x, 0)
