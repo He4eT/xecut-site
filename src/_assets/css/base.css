@@ -149,6 +149,10 @@ img.black-on-white {}
     filter: invert(1);
   }
 }
+/* Fix for light browser theme and enabled DarkReader extension */
+[data-darkreader-scheme="dark"] img.black-on-white {
+  filter: invert(1);
+}
 
 /* Separators */
 
