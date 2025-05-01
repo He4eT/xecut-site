@@ -9,7 +9,7 @@
   --hero-border: calc(0.5 * var(--step)) solid var(--color-inactive);
   margin-block-end: calc(4 * var(--step));
 
-  font-family: Xecut;
+  font-family: Xecut, sans-serif;
   font-size: calc(3 * var(--step));
 }
 @media (max-width: 500px) {
