@@ -31,7 +31,7 @@ Total area:
     - Running Klipper firmware
     - Upgraded with Creality Sprite extruder
     - Optimized for reliable, stable printing
-    - [Detailed documentation](https://github.com/xecut-me/3d_printer)
+    - [Detailed documentation](https://github.com/xecut-me/3d-printer)
 
 ## Tools
 
@@ -39,7 +39,7 @@ Total area:
     - Soldering station
     - Hot air gun
     - Large silicone mat
-    - Small silicone mats ×2
+    - Small silicone mats × 2
 
 2. **Measuring Tools**
     - Multimeter

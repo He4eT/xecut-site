@@ -31,7 +31,7 @@ Ukupna površina:
     - Radi na Klipper firmware-u
     - Nadograđen Creality Sprite ekstruderom
     - Optimizovan za pouzdano i stabilno štampanje
-    - [Detaljna dokumentacija](https://github.com/xecut-me/3d_printer)
+    - [Detaljna dokumentacija](https://github.com/xecut-me/3d-printer)
 
 ## Alati
 
@@ -39,7 +39,7 @@ Ukupna površina:
     - Stanica za lemljenje
     - Pištolj za vrući vazduh
     - Velika silikonska podloga
-    - Male silikonske podloge ×2
+    - Male silikonske podloge × 2
 
 2. **Merni alati**
     - Multimetar
