@@ -141,7 +141,7 @@ th, td {
   padding-block-end: calc(1.75 * var(--step));
 }
 
-/* Images */
+/* Black and White Images */
 
 img.black-on-white {}
 @media (prefers-color-scheme: dark) {
@@ -152,6 +152,12 @@ img.black-on-white {}
 /* Fix for light browser theme and enabled DarkReader extension */
 [data-darkreader-scheme="dark"] img.black-on-white {
   filter: invert(1);
+}
+/* Fix for printed version with enabled DarkReader extension */
+@media print {
+  img.black-on-white {
+    filter: none !important;
+  }
 }
 
 /* Separators */
