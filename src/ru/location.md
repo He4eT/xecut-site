@@ -26,7 +26,7 @@ title: Локация
       OpenStreetMap
   </a>
 - <a target="_blank"
-    href="https://maps.app.goo.gl/VPFt7zN4ayuqwcQN8">
+    href="https://maps.app.goo.gl/fHxhDxAvSBgnWjEdA">
       Google Maps
   </a>
 
