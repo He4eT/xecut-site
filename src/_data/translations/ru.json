@@ -7,7 +7,6 @@
     "status": "Status",
     "location": "Location",
     "inventory": "Inventory",
-    "funds": "Funds",
-    "feed": "Feed"
+    "funds": "Funds"
   }
 }

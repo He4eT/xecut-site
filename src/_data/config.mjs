@@ -8,12 +8,12 @@ export default {
     'location',
     'inventory',
     'funds',
-    'feed',
     'status',
   ],
   links: {
     channel: 'https://t.me/xecut_bg',
     chat: 'https://t.me/xecut_chat',
     email: 'hackspace@xecut.me',
+    github: 'https://github.com/xecut-me/',
   },
 }
