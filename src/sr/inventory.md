@@ -82,10 +82,10 @@ Oznake se mogu odnositi na pojedinačni predmet, kutiju sa predmetima ili sadrž
 - <span style='background: #43A047; width: 1.6em; height: 0.6em; display: inline-block; border: solid 1px;'></span>
   **Zelena**: isto kao bela, ali sa imenom vlasnika, tako da možete kontaktirati tu osobu da nešto pitate ili prenesete loše vesti.
 - <span style='background: #FDD835; width: 1.6em; height: 0.6em; display: inline-block; border: solid 1px;'></span>
-  **Žuta**: potrebna je dozvola vlasnika ili barem nekog od stanara da biste koristili ovaj predmet ili bilo šta sa te police.
+  **Žuta**: potrebna je dozvola vlasnika, ako je naveden, ili nekog od stanara da biste koristili ovaj predmet ili bilo šta sa te police.
 - <span style='background: #E53935; width: 1.6em; height: 0.6em; display: inline-block; border: solid 1px;'></span>
   **Crvena**: ograničen pristup. Obično se radi o nezavršenom projektu ili ličnim stvarima.
 
 Ako imate bilo kakvih nedoumica, slobodno pitajte za status bilo čega.
 
-Ako želite da iznesete nešto iz hakerspejsa, prvo morate kontaktirati vlasnika ili nekog od stanara.
+Iznošenje bilo kojih predmeta iz hakerspejsa dozvoljeno je samo uz prethodnu saglasnost vlasnika, ili nekog od stanara ako vlasnik nije naveden.
