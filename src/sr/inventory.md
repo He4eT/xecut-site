@@ -5,10 +5,13 @@ title: Inventar
 
 # Inventory
 
-Oprema je dostupna — i poželjna — za korišćenje u radu i eksperimentisanju.
+Oprema je dostupna i poželjna za korišćenje u radu i eksperimentisanju.
 
 Molimo vas da sa alatom i materijalima postupate pažljivo i odgovorno.
 Ako nešto prestane da radi ili se pokvari, javite nam — pomoći ćemo da rešimo problem.
+
+Većina polica, kutija i predmeta u prostoru ima posebne
+[oznake u boji](#obelezavanje-bojama) sa opisima ili imenom vlasnika.
 
 Uvek smo srećni kada nam stigne novi alat ili oprema!
 Ako imate nešto što želite da donirate ili mislite da bi bilo korisno za hakerspejs,
@@ -27,37 +30,62 @@ Ukupna površina:
 
 ## 3D štampači
 
-1. **Modifikovani Anet A8**
-    - Radi na Klipper firmware-u
-    - Nadograđen Creality Sprite ekstruderom
-    - Optimizovan za pouzdano i stabilno štampanje
-    - [Detaljna dokumentacija](https://github.com/xecut-me/3d-printer)
+1. **Bambu Lab A1**
+    - ABS, PLA, PETG
+    - Creality Space Pi Filament Dryer
+
+2. **Creality CR-200B Pro**
+    - Klipper Firmware
+    - Zahteva podešavanje i kalibraciju
+
+3. **Anycubic Photon Ultra**
+    - Anycubic Wash & Cure Machine 2.0
 
 ## Alati
 
-1. **Alati za lemljenje**
-    - Stanica za lemljenje
-    - Pištolj za vrući vazduh
-    - Velika silikonska podloga
-    - Male silikonske podloge × 2
+1. **Merni instrumenti**
 
-2. **Merni alati**
-    - Multimetar
-    - Šubler
-    - Laserski nivelator
+2. **Alati za konstrukciju**
 
-8. **Ostali alati**
+3. **Alati za lemljenje**
+    - Lemilica
+    - Toplotni pištolj
+    - Stanica za odlemljivanje
+    - Mikroskop
+    - Set pinceta
+
+4. **Ostali alati**
     - Flipper Zero
     - Termalni štampač
-    - Baseus USB napajanje
-    - Skidač izolacije (stripper)
-    - IKEA set alata
-    - Šrafcigeri i bitovi
+    - Skidač izolacije sa žice
+    - Osciloskop
+    - Logički analizator (16 kanala)
+    - Laboratorijski napajanja
 
 ## Potrošni materijal
 
 - **Potrošni materijal za lemljenje**: fluks, lem, žica
-- **Elektronske komponente**: žice, konektori, otpornici, kondenzatori, diode, tranzistori, mikrokontroleri, displeji, senzori
+- **Elektronske komponente**: mikrokontroleri, moduli, displeji, senzori, konektori, otpornici, kondenzatori, diode, tranzistori i još mnogo toga.
 - **Lepkovi i lepljivi materijali**: lepkovi za plastiku, metal i drvo, pištolji za vrući lepak i lepljive paste
 - **Trake i folije**: lepljive trake, izolir traka, Kapton, folija
 - **Tehničke tečnosti**: silikonska mast, izopropil alkohol
+- **Različiti materijali za eksperimente**
+
+---
+
+## Obeležavanje bojama
+
+Oznake se mogu odnositi na pojedinačni predmet, kutiju sa predmetima ili sadržaj cele police:
+
+- <span style='background: #ffffff; width: 1.6em; height: 0.6em; display: inline-block; border: solid 1px;'></span>
+  **Bela**: predmeti se mogu slobodno koristiti u skladu sa zdravim razumom.
+- <span style='background: #43A047; width: 1.6em; height: 0.6em; display: inline-block; border: solid 1px;'></span>
+  **Zelena**: isto kao bela, ali sa imenom vlasnika, tako da možete kontaktirati tu osobu da nešto pitate ili prenesete loše vesti.
+- <span style='background: #FDD835; width: 1.6em; height: 0.6em; display: inline-block; border: solid 1px;'></span>
+  **Žuta**: potrebna je dozvola vlasnika ili barem nekog od stanara da biste koristili ovaj predmet ili bilo šta sa te police.
+- <span style='background: #E53935; width: 1.6em; height: 0.6em; display: inline-block; border: solid 1px;'></span>
+  **Crvena**: ograničen pristup. Obično se radi o nezavršenom projektu ili ličnim stvarima.
+
+Ako imate bilo kakvih nedoumica, slobodno pitajte za status bilo čega.
+
+Ako želite da iznesete nešto iz hakerspejsa, prvo morate kontaktirati vlasnika ili nekog od stanara.

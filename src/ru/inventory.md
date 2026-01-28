@@ -36,7 +36,7 @@ title: Инвентарь
     - Creality Space Pi Filament Dryer
 
 2. **Creality CR-200B Pro**
-    - Прошит Klipper Firmware
+    - Klipper Firmware
     - Нуждается в настройке и калибровке
 
 3. **Anycubic Photon Ultra**
