@@ -82,10 +82,10 @@ Labels may apply to an individual item, a box of items, or the contents of an en
 - <span style='background: #43A047; width: 1.6em; height: 0.6em; display: inline-block; border: solid 1px;'></span>
   **Green**: it’s just like white but with the owner’s name so you could contact this person to ask something or bring some sad news.
 - <span style='background: #FDD835; width: 1.6em; height: 0.6em; display: inline-block; border: solid 1px;'></span>
-  **Yellow**: you need permission from the owner or at least a resident to use this thing or anything from the shelf.
+  **Yellow**: you need permission from the owner if one is specified, or from a resident, to use this item or anything from the shelf.
 - <span style='background: #E53935; width: 1.6em; height: 0.6em; display: inline-block; border: solid 1px;'></span>
   **Red**: restricted access. Usually it is an unfinished project or some personal things.
 
 If you have any doubts, please do not hesitate to ask about the status of anything.
 
-If you want to take something out of the hackspace you must contact the owner or a resident first.
+Taking items out of the hackerspace is allowed only with prior approval from the owner, or from a resident if no owner is specified.
