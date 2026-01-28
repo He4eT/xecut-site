@@ -5,10 +5,13 @@ title: Inventory
 
 # Inventory
 
-The equipment is available — and encouraged — for use in work and experimentation.
+The equipment is available and encouraged for use in work and experimentation.
 
 Please treat all tools and materials with care and respect.
 If something breaks or stops working, let us know — we’ll help sort it out.
+
+Most shelves, boxes, and items in the space have special
+[color labels](#color-coding) with descriptions or the owner’s name.
 
 We’re always happy to welcome new tools and equipment!
 If you have something you'd like to donate or think could be useful to the hackspace,
@@ -27,37 +30,62 @@ Total area:
 
 ## 3D Printers
 
-1. **Modified Anet A8**
-    - Running Klipper firmware
-    - Upgraded with Creality Sprite extruder
-    - Optimized for reliable, stable printing
-    - [Detailed documentation](https://github.com/xecut-me/3d-printer)
+1. **Bambu Lab A1**
+    - ABS, PLA, PETG
+    - Creality Space Pi Filament Dryer
+
+2. **Creality CR-200B Pro**
+    - Klipper Firmware
+    - Requires setup and calibration
+
+3. **Anycubic Photon Ultra**
+    - Anycubic Wash & Cure Machine 2.0
 
 ## Tools
 
-1. **Soldering Tools**
+1. **Measuring Instruments**
+
+2. **Construction Tools**
+
+3. **Soldering Tools**
     - Soldering station
     - Hot air gun
-    - Large silicone mat
-    - Small silicone mats × 2
+    - Desoldering station
+    - Microscope
+    - Set of tweezers
 
-2. **Measuring Tools**
-    - Multimeter
-    - Caliper
-    - Laser level
-
-8. **Other Tools**
+4. **Other Tools**
     - Flipper Zero
     - Thermal printer
-    - Baseus USB power supply
     - Wire stripper
-    - IKEA tool kit
-    - Screwdrivers and bits
+    - Oscilloscope
+    - Logic analyzer (16 channels)
+    - Laboratory power supplies
 
 ## Stuff
 
 - **Soldering consumables**: flux, solder, wire
-- **Electronic components**: wires, connectors, resistors, capacitors, diodes, transistors, microcontrollers, displays, sensors
+- **Electronic components**: microcontrollers, modules, displays, sensors, connectors, resistors, capacitors, diodes, transistors, and much more.
 - **Adhesives and glue**: plastic, metal, and wood glue, hot glue guns and pastes
 - **Tapes and films**: regular tape, electrical tape, Kapton, foil
 - **Technical fluids**: silicone grease, isopropyl alcohol
+- **Various materials for experiments**
+
+---
+
+## Color Coding
+
+Labels may apply to an individual item, a box of items, or the contents of an entire shelf:
+
+- <span style='background: #ffffff; width: 1.6em; height: 0.6em; display: inline-block; border: solid 1px;'></span>
+  **White**: items may be freely used according to common sense.
+- <span style='background: #43A047; width: 1.6em; height: 0.6em; display: inline-block; border: solid 1px;'></span>
+  **Green**: it’s just like white but with the owner’s name so you could contact this person to ask something or bring some sad news.
+- <span style='background: #FDD835; width: 1.6em; height: 0.6em; display: inline-block; border: solid 1px;'></span>
+  **Yellow**: you need permission from the owner or at least a resident to use this thing or anything from the shelf.
+- <span style='background: #E53935; width: 1.6em; height: 0.6em; display: inline-block; border: solid 1px;'></span>
+  **Red**: restricted access. Usually it is an unfinished project or some personal things.
+
+If you have any doubts, please do not hesitate to ask about the status of anything.
+
+If you want to take something out of the hackspace you must contact the owner or a resident first.
