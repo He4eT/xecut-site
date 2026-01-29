@@ -15,5 +15,6 @@ export default {
     chat: 'https://t.me/xecut_chat',
     email: 'hackspace@xecut.me',
     github: 'https://github.com/xecut-me/',
+    youtube: 'https://www.youtube.com/@XecutMe',
   },
 }
