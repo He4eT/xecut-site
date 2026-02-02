@@ -7,7 +7,6 @@ export default {
   menu: [
     'location',
     'inventory',
-    'funds',
     'status',
   ],
   links: {
