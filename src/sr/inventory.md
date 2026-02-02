@@ -57,7 +57,6 @@ Ukupna površina:
 4. **Ostali alati**
     - Flipper Zero
     - Termalni štampač
-    - Skidač izolacije sa žice
     - Osciloskop
     - Logički analizator (16 kanala)
     - Laboratorijski napajanja

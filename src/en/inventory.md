@@ -57,7 +57,6 @@ Total area:
 4. **Other Tools**
     - Flipper Zero
     - Thermal printer
-    - Wire stripper
     - Oscilloscope
     - Logic analyzer (16 channels)
     - Laboratory power supplies
