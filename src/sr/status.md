@@ -9,5 +9,5 @@ Ako želite da proverite da li je neko u prostoru, rezervišete termin
 ili organizujete događaj, svratite u naš
 <a target="_blank" href="{{ config.links.chat }}">Telegram čet</a>.
 
-Rezidenti često dolaze u hackerspace uveče i vikendom,
+Rezidenti često dolaze u hackspace uveče i vikendom,
 a gosti su obično tada takođe dobrodošli.

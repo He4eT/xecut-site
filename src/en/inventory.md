@@ -87,4 +87,4 @@ Labels may apply to an individual item, a box of items, or the contents of an en
 
 If you have any doubts, please do not hesitate to ask about the status of anything.
 
-Taking items out of the hackerspace is allowed only with prior approval from the owner, or from a resident if no owner is specified.
+Taking items out of the hackspace is allowed only with prior approval from the owner, or from a resident if no owner is specified.
